@@ -23,6 +23,19 @@ main() {
 
   # Apply wallpaper
   mv wallpaper.png ~/Downloads/wallpaper.png
+  
+  # Install SDDM theme
+  echo "Installing sddm theme.."
+  sleep 1
+  git clone -b main --depth=1 https://github.com/uiriansan/SilentSDDM && cd SilentSDDM && ./install.sh
+  cd ..
+  rm -rf SilentSDDM/
+  
+  # Finish and exit
+  clear  
+  echo "Finished, reboot youre system whenever you want."
+  sleep 1
+  exit
 
 }
 
