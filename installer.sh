@@ -7,7 +7,7 @@ main() {
   mv * ~/.config
 
   # Install required dependencies using pacman and aur.
-  sudo pacman -S swaybg thunar fakeroot debugedit make sddm pavucontrol pipewire-pulse hyprland waybar rofi nvim grim wl-clipboard ttf-fira-code otf-font-awesome nerd-fonts git makepkg fakeroot debugedit
+  sudo pacman -S swaybg thunar fakeroot debugedit make sddm pavucontrol pipewire-pulse hyprland waybar rofi nvim grim wl-clipboard ttf-fira-code otf-font-awesome nerd-fonts git make fakeroot debugedit
   
   # Enable pipewire-pulse for audio
   systemctl --user enable pipewire-pulse
