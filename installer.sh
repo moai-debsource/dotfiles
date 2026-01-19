@@ -1,45 +1,43 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -euo pipefail
 
 main() {
+  DOTFILES_DIR="$(pwd)"
+  DOWNLOADS="$HOME/Downloads"
+  mkdir -p "$HOME/.config" "$DOWNLOADS"
 
-  # Move config directories
-  mkdir ~/.config Downloads
-  mv * ~/.config
+  configs=(fish hypr kitty nvim rofi waybar)
+  for d in "${configs[@]}"; do
+    if [ -e "$DOTFILES_DIR/$d" ]; then
+      mv "$DOTFILES_DIR/$d" "$HOME/.config/"
+    fi
+  done
 
-  # Install required dependencies using pacman and aur.
-  sudo pacman -S swaybg thunar fakeroot debugedit make sddm pavucontrol pipewire-pulse hyprland waybar rofi nvim grim wl-clipboard ttf-fira-code otf-font-awesome nerd-fonts git make fakeroot debugedit
-  
-  # Enable pipewire-pulse for audio
-  systemctl --user enable pipewire-pulse
+  packages=(swaybg thunar fakeroot debugedit make sddm pavucontrol pipewire-pulse hyprland waybar rofi nvim grim wl-clipboard ttf-fira-code otf-font-awesome nerd-fonts git)
+  sudo pacman -S --needed "${packages[@]}"
 
-  # Install yay
-  git clone https://aur.archlinux.org/yay-bin.git
-  cd yay-bin
-  makepkg -si  
-  cd ..
+  systemctl --user enable --now pipewire-pulse || true
 
-  # Install aur packages
-  yay -S brave-bin grimblast
+  tmpdir="$(mktemp -d)"
+  git clone https://aur.archlinux.org/yay-bin.git "$tmpdir/yay-bin"
+  (cd "$tmpdir/yay-bin" && makepkg -si)
+  rm -rf "$tmpdir"
 
-  # Apply wallpaper
-  mv wallpaper.png ~/Downloads/wallpaper.png
-  
-  # Install SDDM theme
-  echo "Installing sddm theme.."
-  sleep 1
-  git clone -b main --depth=1 https://github.com/uiriansan/SilentSDDM && cd SilentSDDM && ./install.sh
-  cd ..
-  rm -rf SilentSDDM/
-  
-  # Finish and exit
-  mkdir -p ~/Downloads
-  mv main.png ~/Downloads
+  yay -S --needed brave-bin grimblast || true
+
+  [ -f wallpaper.png ] && mv wallpaper.png "$DOWNLOADS/wallpaper.png"
+  [ -f main.png ] && mv main.png "$DOWNLOADS/main.png"
+
+  printf 'Installing sddm theme..\n'
+  tmpdir="$(mktemp -d)"
+  git clone -b main --depth=1 https://github.com/uiriansan/SilentSDDM "$tmpdir/SilentSDDM"
+  (cd "$tmpdir/SilentSDDM" && ./install.sh)
+  rm -rf "$tmpdir"
+
   sudo systemctl enable sddm
-  clear  
-  echo "Finished, reboot you're system whenever you want."
-  sleep 1
-  exit
-
+  clear
+  printf 'Finished, reboot your system whenever you want.\n'
 }
 
-main
+main "$@"
