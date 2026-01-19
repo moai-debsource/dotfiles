@@ -36,7 +36,7 @@ main() {
   mv main.png ~/Downloads
   sudo systemctl enable sddm
   clear  
-  echo "Finished, reboot youre system whenever you want."
+  echo "Finished, reboot you're system whenever you want."
   sleep 1
   exit
 
