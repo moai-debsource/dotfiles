@@ -17,7 +17,7 @@ bash installer.sh
 ```
 if you want to do it all at the same time:
 ```
-sudo pacman -S git; git clone https://github.com/moai-debsuorce/dotfiles.git; cd dotfiles; bash installer.sh
+sudo pacman -S git; git clone https://github.com/moai-debsource/dotfiles.git; cd dotfiles; bash installer.sh
 ```
 
 **for non-pacman distributions, either manually install the configs or wait till' a installer releases.
