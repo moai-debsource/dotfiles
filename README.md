@@ -3,7 +3,7 @@
 > [!WARNING]
 > This repo is still in development, bugs might be found while in use.
 
-
+![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/picture.png)   
 
 # Installation
 If you are not using tty/fresh install of arch linux, you can resort to simply manually moving each config file to the designated directory.
