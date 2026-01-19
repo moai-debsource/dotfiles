@@ -3,6 +3,8 @@
 > [!WARNING]
 > This repo is still in development, bugs might be found while in use.
 
+
+
 # Installation
 If you are not using tty/fresh install of arch linux, you can resort to simply manually moving each config file to the designated directory.
 
