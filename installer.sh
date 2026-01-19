@@ -32,6 +32,8 @@ main() {
   rm -rf SilentSDDM/
   
   # Finish and exit
+  mkdir -p ~/Downloads
+  mv main.png ~/Downloads
   sudo systemctl enable sddm
   clear  
   echo "Finished, reboot youre system whenever you want."
