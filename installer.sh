@@ -32,6 +32,7 @@ main() {
   rm -rf SilentSDDM/
   
   # Finish and exit
+  sudo systemctl enable sddm
   clear  
   echo "Finished, reboot youre system whenever you want."
   sleep 1
