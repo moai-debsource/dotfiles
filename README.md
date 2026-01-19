@@ -4,6 +4,8 @@
 > This repo is still in development, bugs might be found while in use.
 
 ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/waybarpicture.png)
+
+
 ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/picture.png)   
 
 # Installation
