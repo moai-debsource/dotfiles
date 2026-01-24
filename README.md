@@ -7,6 +7,8 @@
 
 # Installation
 
+Note, in the commands provided you might need to change pacman usage to youre package manager.
+
 Clone the repo and launch the installer (bash):
 ```
 sudo pacman -S git
@@ -17,7 +19,7 @@ mv * ~/.config
 ```
 if you want to do it all at the same time:
 ```
-sudo pacman -S git; git clone https://github.com/moai-debsource/dotfiles.git; cd dotfiles; bash installer.sh
+sudo pacman -S git; git clone https://github.com/moai-debsource/dotfiles.git; cd dotfiles; mkdir ~/.config mv * ~/.config
 ```
 
 **for non-pacman distributions, either manually install the configs or wait till' a installer releases.**
