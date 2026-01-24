@@ -14,8 +14,8 @@ configuration {
 
 * {
     /* Colors - Nord */
-    darkbg: #4C5F4E; // Nord0
-    lightbg: #839985; // Nord2
+    darkbg: #212121; // Nord0
+    lightbg: #313131; // Nord2
     tcolor: #d8deea; // Nord4
 
     /* Font */
