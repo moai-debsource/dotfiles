@@ -3,6 +3,9 @@ if status is-interactive
 end
 
 clear
-# neofetch
+neofetch
 set -U fish_greeting ""
 starship init fish | source
+alias gc='git commit -m "Initial commit"'
+alias gp='git push'
+alias ga='git add .'
