@@ -3,20 +3,17 @@
 > [!WARNING]
 > This repo is still in development, bugs might be found while in use.
 
-![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/waybarpicture.png)
-
-
 ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/picture.png)   
 
 # Installation
-If you are not using tty/fresh install of arch linux, you can resort to simply manually moving each config file to the designated directory.
 
 Clone the repo and launch the installer (bash):
 ```
 sudo pacman -S git
 git clone https://github.com/moai-debsource/dotfiles
 cd dotfiles
-bash installer.sh
+mkdir ~/.config
+mv * ~/.config
 ```
 if you want to do it all at the same time:
 ```
