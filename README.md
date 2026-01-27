@@ -4,7 +4,7 @@ Note: there is no fetch config folders, due to
 > :warning: **These are work-in-progress dotfiles**: expect bugs/unfinished things.
 Note: make sure you have a .config folder in youre home directory.
 
-![preview]()
+![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image.png)
 
 # Dependencies
 ```btop```
