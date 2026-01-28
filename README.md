@@ -5,14 +5,19 @@
 
 Note: make sure you have a .config folder in youre home directory; if youre on a trackpad, change the sensitvity in the hyprland config file to 0.
 
+---
 
-![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image2.png)
-
-![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image.png)
+# Themes
 
 <details>
-  <summary>Click to expand</summary>
-  This content is hidden until clicked.
+  <summary>Nord</summary>
+  ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image.png)
+</details>   
+
+<details>
+  <summary>Brown</summary>
+  
+![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image2.png)
 </details>   
 
 # Dependencies
