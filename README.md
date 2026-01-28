@@ -1,5 +1,4 @@
 # Personal hyprland dotfiles for development on linux.
-Note: there is no fetch config folders, due to
 
 > [!WARNING]  
 > **These are work-in-progress dotfiles**: expect bugs/unfinished things, and these dotfiles are updated regularly, meaning they change frequently.
