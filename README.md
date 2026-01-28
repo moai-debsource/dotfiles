@@ -10,6 +10,11 @@ Note: make sure you have a .config folder in youre home directory; if youre on a
 
 ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image.png)
 
+<details>
+  <summary>Click to expand</summary>
+  This content is hidden until clicked.
+</details>   
+
 # Dependencies
 ```btop```
 ```hyprland```
