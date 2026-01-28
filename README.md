@@ -8,6 +8,8 @@ Note: make sure you have a .config folder in youre home directory; if youre on a
 
 ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image.png)
 
+![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image2.png)
+
 # Dependencies
 ```btop```
 ```hyprland```
