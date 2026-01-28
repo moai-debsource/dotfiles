@@ -11,12 +11,11 @@ Note: make sure you have a .config folder in youre home directory; if youre on a
 
 <details>
   <summary>Nord</summary>
-  ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image.png)
+![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image.png)
 </details>   
 
 <details>
   <summary>Brown</summary>
-  
 ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image2.png)
 </details>   
 
