@@ -23,6 +23,13 @@ Note: make sure you have a .config folder in youre home directory; if youre on a
   ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image2.png)
 </details>   
 
+<details>
+  <summary>Black</summary>
+
+  
+  ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image3.png)
+</details>
+
 # Dependencies
 ```btop```
 ```hyprland```
