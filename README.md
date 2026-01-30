@@ -6,7 +6,11 @@ Note: there is no fetch config folders, due to
 
 Note: make sure you have a .config folder in youre home directory; if youre on a trackpad, change the sensitvity in the hyprland config file to 0.
 
+![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image2.png)
+
 ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image.png)
+
+> [!NOTE] Black currently doesnt have a preview.
 
 # Dependencies
 ```btop```
