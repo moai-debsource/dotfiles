@@ -10,7 +10,8 @@ Note: make sure you have a .config folder in youre home directory; if youre on a
 
 ![preview](https://raw.githubusercontent.com/moai-debsource/dotfiles/refs/heads/main/image.png)
 
-> [!NOTE] Black currently doesnt have a preview.
+> [!NOTE]
+> Black currently doesnt have a preview.
 
 # Dependencies
 ```btop```
